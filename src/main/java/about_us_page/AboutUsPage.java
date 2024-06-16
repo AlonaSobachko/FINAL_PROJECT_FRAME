@@ -13,10 +13,10 @@ public class AboutUsPage extends PageObject {
     @FindBy(css = "#primary > section.banner.lazyloaded > div > h2")
     public WebElement aboutUsTitle;
 
-    @FindBy(css = "#primary > section.about > div > div.about__content > div")
+    @FindBy(css = "#primary > section.owner")
     public WebElement aboutUsContent;
 
-    @FindBy(css = "#primary > section:nth-child(6) > div > div.about-content__wrapper > div > a")
+    @FindBy(xpath = "//*[@id=\"primary\"]/section[6]/div/div[2]/div/a")
     public WebElement viewLocationButton;
 
     @FindBy(css = "#primary > section:nth-child(7) > div > div.about-content__wrapper > div > a")
@@ -24,4 +24,5 @@ public class AboutUsPage extends PageObject {
 
     @FindBy(css = "#primary > section:nth-child(8) > div > div.about-content__wrapper > div > a")
     public WebElement orderConsultationButton;
+
 }
