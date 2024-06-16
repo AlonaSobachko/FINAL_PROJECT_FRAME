@@ -1,3 +1,5 @@
+package home_page_tests;
+
 import dtiver_init.DriverInit;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;

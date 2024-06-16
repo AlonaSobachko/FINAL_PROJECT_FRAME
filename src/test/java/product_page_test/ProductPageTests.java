@@ -1,3 +1,6 @@
+package product_page_test;
+
+import home_page_tests.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import product_page.ProductPage;
