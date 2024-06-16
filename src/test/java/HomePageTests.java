@@ -1,10 +1,8 @@
 import home_page.HomePage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HomePageTest extends BaseTest {
+public class HomePageTests extends BaseTest {
     @Test
     public void testLogoPresence() {
         driver.get("https://all-face.com.ua/");
